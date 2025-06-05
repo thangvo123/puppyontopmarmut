@@ -20,9 +20,11 @@ setfpscap(3)  -- number = fps
 
 getgenv().bgsInfConfig = {
     SUMMER_EVENT = true,
+    SHOW_MULTIPLIER = true,
     ADD_FRIEND = true,
     ENABLE_EXIT = true,
     IGNORE_SEASON_CHALLENGES = true,
+    IGNORE_MINIGAME = true,
     AUTO_UPDATE_RESTART = false,
     
     PURCHASE_ALIENSHOP = true,
@@ -33,6 +35,7 @@ getgenv().bgsInfConfig = {
     RESTOCK_SHOP = "Event Shop",
 
     USE_ROYAL_KEY = true,
+    FOCUS_DICE = true,
     USE_DICE_KEY = true,
     USE_MYSTERY_BOX = true,
 
@@ -43,22 +46,23 @@ getgenv().bgsInfConfig = {
     DELETE_LEGENDARY_MYTHIC = true,
 
     ENCHANT_TEAMUP = true,
-    ENCHANT_TEAMUP_TIER = 3,
+    ENCHANT_TEAMUP_TIER = 5,
 
     AUTO_BOUNTY_RIFT = true,
     HATCH_1X_EGG = {"Fossil Egg"}, 
-    MIN_SEASHELLS_BEFORE_HATCHING = 100000000000,
+    MIN_SEASHELLS_BEFORE_HATCHING = "100,000,000,000",
     ALWAYS_INFINITY_ELIXIR = true,
     ALWAYS_EGG_ELIXIR = true,
 
     MASTERY_PETS_LEVEL = 15,   
-    MASTERY_BUFFS_LEVEL = 10,  
+    MASTERY_BUFFS_LEVEL = 15,  
     MASTERY_SHOPS_LEVEL = 10,  
     MASTERY_MINIGAMES_LEVEL = 8,
 
     WEBHOOK_URL = "https://discord.com/api/webhooks/1311251398515626004/SMZF9yzSDdBh5YZr8shm7ZPVz4aPDU3E5SnPPKGvZyzWYCrEJLU2-3G9dUa0fEoHhS90",
     DISCORD_ID = "1165842656958611546",
-    WEBHOOK_ODDS = 500000000000,
+    WEBHOOK_NOTE = "PUPPY",
+    WEBHOOK_ODDS = "100000m",
     SHOW_PET_WEBHOOK_USERNAME = true,
 }
 
