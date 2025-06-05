@@ -35,7 +35,6 @@ getgenv().bgsInfConfig = {
     RESTOCK_SHOP = "Event Shop",
 
     USE_ROYAL_KEY = true,
-    FOCUS_DICE = true,
     USE_DICE_KEY = true,
     USE_MYSTERY_BOX = true,
 
