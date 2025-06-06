@@ -33,10 +33,8 @@ getgenv().bgsInfConfig = {
     PURCHASE_STARSHOP_SLOT = 16,
     RESTOCK_SHOP = "Event Shop",
 
-    FOCUS_DICE = true,
     USE_ROYAL_KEY = true,
     USE_DICE_KEY = true,
-    USE_GOLDEN_KEY = true,
     USE_MYSTERY_BOX = true,
 
     RARITY_TO_DELETE = {"Common", "Unique", "Rare", "Epic", "Legendary"},
