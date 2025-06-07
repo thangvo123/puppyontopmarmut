@@ -16,7 +16,7 @@ loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/793674f6bc0a80
 end)
 task.wait(120)
 script_key = getgenv().Marmot;
-setfpscap(3)  -- number = fps
+setfpscap(5)  -- number = fps
 
 getgenv().bgsInfConfig = {
     SUMMER_EVENT = true,
