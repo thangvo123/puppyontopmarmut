@@ -31,7 +31,7 @@ getgenv().bgsInfConfig = {
     PURCHASE_DICE_MERCHANT = true,
     PURCHASE_EVENT_SHOP = true,
     PURCHASE_STARSHOP_SLOT = 16,
-    RESTOCK_SHOP = "Event Shop",
+    RESTOCK_SHOP = "Traveling Merchant",
 
     USE_ROYAL_KEY = true,
     USE_DICE_KEY = true,
@@ -46,7 +46,7 @@ getgenv().bgsInfConfig = {
     ENCHANT_TEAMUP = true,
     ENCHANT_TEAMUP_TIER = 5,
 
-    HATCH_1X_EGG = {"Fossil Egg"}, 
+    HATCH_1X_EGG = {"Dark Egg", "Light Egg"}, 
     MIN_SEASHELLS_BEFORE_HATCHING = "100,000,000,000",
     ALWAYS_INFINITY_ELIXIR = true,
     ALWAYS_EGG_ELIXIR = true,
