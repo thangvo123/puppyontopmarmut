@@ -16,7 +16,7 @@ loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/793674f6bc0a80
 end)
 task.wait(120)
 script_key = getgenv().Marmot;
-setfpscap(5)  -- number = fps
+setfpscap(3)  -- number = fps
 
 getgenv().bgsInfConfig = {
     SUMMER_EVENT = true,
@@ -24,12 +24,14 @@ getgenv().bgsInfConfig = {
     ADD_FRIEND = true,
     ENABLE_EXIT = true,
     IGNORE_SEASON_CHALLENGES = true,
+    IGNORE_MINIGAME = true,
     AUTO_UPDATE_RESTART = false,
     
     PURCHASE_ALIENSHOP = true,
     PURCHASE_BLACKMARKET = true,
     PURCHASE_DICE_MERCHANT = true,
     PURCHASE_EVENT_SHOP = true,
+    PURCHASE_TRAVELING_MERCHANT = true,
     PURCHASE_STARSHOP_SLOT = 16,
     RESTOCK_SHOP = "Traveling Merchant",
 
@@ -47,7 +49,6 @@ getgenv().bgsInfConfig = {
     ENCHANT_TEAMUP_TIER = 5,
 
     HATCH_1X_EGG = {"Dark Egg", "Light Egg"}, 
-    MIN_SEASHELLS_BEFORE_HATCHING = "100,000,000,000",
     ALWAYS_INFINITY_ELIXIR = true,
     ALWAYS_EGG_ELIXIR = true,
 
