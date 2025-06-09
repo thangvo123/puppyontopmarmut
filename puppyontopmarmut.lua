@@ -14,7 +14,7 @@ getgenv().Config = {
 task.spawn(function()
 loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/793674f6bc0a80e1c748fd75994d1607.lua"))()
 end)
-task.wait(120)
+task.wait(1)
 script_key = getgenv().Marmot;
 setfpscap(3)  -- number = fps
 
@@ -32,7 +32,7 @@ getgenv().bgsInfConfig = {
     PURCHASE_EVENT_SHOP = true,
     PURCHASE_TRAVELING_MERCHANT = true,
     PURCHASE_STARSHOP_SLOT = 16,
-    RESTOCK_SHOP = "Event Shop",
+    RESTOCK_SHOP = "Traveling Merchant",
 
     USE_ROYAL_KEY = true,
     USE_DICE_KEY = true,
@@ -48,8 +48,8 @@ getgenv().bgsInfConfig = {
     ENCHANT_TEAMUP_TIER = 5,
 
     AUTO_BOUNTY_RIFT = true,
-    HATCH_1X_EGG = {"Fruit Egg"}, 
-    MIN_SEASHELLS_BEFORE_HATCHING = "50,000,000,000", 
+    HATCH_1X_EGG = {"Dark Egg", "Light Egg"}, 
+    MIN_SEASHELLS_BEFORE_HATCHING = "0", 
     ALWAYS_INFINITY_ELIXIR = true,
     ALWAYS_EGG_ELIXIR = true,
 
