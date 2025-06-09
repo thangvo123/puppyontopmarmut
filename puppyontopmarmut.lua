@@ -33,7 +33,7 @@ getgenv().bgsInfConfig = {
     PURCHASE_EVENT_SHOP = true,
     PURCHASE_TRAVELING_MERCHANT = true,
     PURCHASE_STARSHOP_SLOT = 16,
-    RESTOCK_SHOP = "Traveling Merchant",
+    RESTOCK_SHOP = "Blackmarket",
 
     USE_ROYAL_KEY = true,
     USE_DICE_KEY = true,
@@ -50,13 +50,15 @@ getgenv().bgsInfConfig = {
 
     AUTO_BOUNTY_RIFT = true,
     HATCH_1X_EGG = {"Dark Egg", "Light Egg"}, 
+    MIN_SEASHELLS_BEFORE_HATCHING = "1", 
     ALWAYS_INFINITY_ELIXIR = true,
     ALWAYS_EGG_ELIXIR = true,
 
     MASTERY_PETS_LEVEL = 15,   
     MASTERY_BUFFS_LEVEL = 15,  
     MASTERY_SHOPS_LEVEL = 10,  
-    MASTERY_MINIGAMES_LEVEL = 8,
+    MASTERY_MINIGAMES_LEVEL = 1,
+    MIN_TICKETS_BEFORE_HATCHING = 1,
 
     WEBHOOK_URL = "https://discord.com/api/webhooks/1311251398515626004/SMZF9yzSDdBh5YZr8shm7ZPVz4aPDU3E5SnPPKGvZyzWYCrEJLU2-3G9dUa0fEoHhS90",
     DISCORD_ID = "1165842656958611546",
