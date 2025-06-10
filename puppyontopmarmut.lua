@@ -50,6 +50,7 @@ getgenv().bgsInfConfig = {
 
     AUTO_BOUNTY_RIFT = true,
     HATCH_1X_EGG = {"Dark Egg", "Light Egg"}, 
+    MIN_COINS_BEFORE_HATCHING = "25b",
     MIN_SEASHELLS_BEFORE_HATCHING = "0", 
     ALWAYS_INFINITY_ELIXIR = true,
     ALWAYS_EGG_ELIXIR = true,
