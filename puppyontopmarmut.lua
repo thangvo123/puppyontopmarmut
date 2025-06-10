@@ -24,6 +24,7 @@ getgenv().bgsInfConfig = {
     ADD_FRIEND = true,
     ENABLE_EXIT = true,
     IGNORE_SEASON_CHALLENGES = true,
+    IGNORE_MINIGAME = true,
     AUTO_UPDATE_RESTART = false,
     
     PURCHASE_ALIENSHOP = true,
@@ -56,7 +57,7 @@ getgenv().bgsInfConfig = {
     MASTERY_PETS_LEVEL = 15,   
     MASTERY_BUFFS_LEVEL = 15,  
     MASTERY_SHOPS_LEVEL = 10,  
-    MASTERY_MINIGAMES_LEVEL = 8,
+    MASTERY_MINIGAMES_LEVEL = 1,
     MIN_TICKETS_BEFORE_HATCHING = 1,
 
     WEBHOOK_URL = "https://discord.com/api/webhooks/1311251398515626004/SMZF9yzSDdBh5YZr8shm7ZPVz4aPDU3E5SnPPKGvZyzWYCrEJLU2-3G9dUa0fEoHhS90",
