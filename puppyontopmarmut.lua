@@ -32,7 +32,7 @@ getgenv().bgsInfConfig = {
     PURCHASE_DICE_MERCHANT = true,
     PURCHASE_EVENT_SHOP = true,
     PURCHASE_TRAVELING_MERCHANT = true,
-    PURCHASE_STARSHOP_SLOT = 14,
+    PURCHASE_STARSHOP_SLOT = 16,
     RESTOCK_SHOP = "Event Merchant",
 
     FOCUS_DICE = true,
