@@ -24,7 +24,6 @@ getgenv().bgsInfConfig = {
     ADD_FRIEND = true,
     ENABLE_EXIT = true,
     IGNORE_SEASON_CHALLENGES = true,
-    SUPER_TICKET_MINIGAME = "Robot Claw",
     AUTO_UPDATE_RESTART = false,
     
     PURCHASE_ALIENSHOP = true,
@@ -33,7 +32,6 @@ getgenv().bgsInfConfig = {
     PURCHASE_EVENT_SHOP = true,
     PURCHASE_TRAVELING_MERCHANT = true,
     PURCHASE_STARSHOP_SLOT = 16,
-    POTIONS_TO_CRAFT = {"Mythic", "Lucky", "Speed", "Tickets"},
     RESTOCK_SHOP = "Event Merchant",
 
     FOCUS_DICE = true,
