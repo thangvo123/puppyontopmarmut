@@ -32,8 +32,8 @@ getgenv().bgsInfConfig = {
     PURCHASE_DICE_MERCHANT = true,
     PURCHASE_EVENT_SHOP = true,
     PURCHASE_TRAVELING_MERCHANT = true,
-    PURCHASE_STARSHOP_SLOT = 16,
-    RESTOCK_SHOP = "Traveling Merchant",
+    PURCHASE_STARSHOP_SLOT = 14,
+    RESTOCK_SHOP = "Event Merchant",
 
     USE_ROYAL_KEY = true,
     USE_DICE_KEY = true,
@@ -46,9 +46,8 @@ getgenv().bgsInfConfig = {
     DELETE_LEGENDARY_MYTHIC = true,
 
     ENCHANT_TEAMUP = true,
-    ENCHANT_TEAMUP_TIER = 5,
+    ENCHANT_TEAMUP_TIER = 3,
 
-    AUTO_BOUNTY_RIFT = true,
     HATCH_1X_EGG = {"Dark Egg", "Light Egg"}, 
     MIN_COINS_BEFORE_HATCHING = "25b",
     MIN_SEASHELLS_BEFORE_HATCHING = "0", 
