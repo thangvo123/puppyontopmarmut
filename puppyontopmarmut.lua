@@ -48,6 +48,7 @@ getgenv().bgsInfConfig = {
     ENCHANT_TEAMUP = true,
     ENCHANT_TEAMUP_TIER = 3,
 
+    AUTO_BOUNTY_RIFT = true,
     HATCH_1X_EGG = {"Dark Egg", "Light Egg"}, 
     MIN_COINS_BEFORE_HATCHING = "25b",
     MIN_SEASHELLS_BEFORE_HATCHING = "0", 
