@@ -48,6 +48,7 @@ getgenv().bgsInfConfig = {
 
     ENCHANT_TEAMUP = true,
     ENCHANT_TEAMUP_TIER = 3,
+    ENCHANT_HIGH_ROLLER = true,
 
     AUTO_BOUNTY_RIFT = true,
     HATCH_1X_EGG = {"Dark Egg", "Light Egg"}, 
