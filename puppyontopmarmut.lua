@@ -27,7 +27,7 @@ getgenv().bgsInfConfig = {
     SUPER_TICKET_MINIGAME = "Robot Claw",
     STOP_MINIGAME_INFINITY_ELIXIR = 10,
     AUTO_UPDATE_RESTART = false,
-    
+
     PURCHASE_ALIENSHOP = true,
     PURCHASE_BLACKMARKET = true,
     PURCHASE_DICE_MERCHANT = true,
@@ -46,7 +46,7 @@ getgenv().bgsInfConfig = {
     MAX_LEGENDARY_TIER_TO_DELETE = 2,  -- (DO NOT Delete Tier 3+ shiny & mythic, use PETS_TO_DELETE instead)
     DELETE_LEGENDARY_SHINY = true,
     DELETE_LEGENDARY_MYTHIC = true,
-    
+
     ENCHANT_HIGH_ROLLER = true,
 
     AUTO_BOUNTY_RIFT = true,
