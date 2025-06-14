@@ -24,6 +24,8 @@ getgenv().bgsInfConfig = {
     ADD_FRIEND = true,
     ENABLE_EXIT = true,
     IGNORE_SEASON_CHALLENGES = true,
+    SUPER_TICKET_MINIGAME = "Robot Claw",
+    STOP_MINIGAME_INFINITY_ELIXIR = 10,
     AUTO_UPDATE_RESTART = false,
     
     PURCHASE_ALIENSHOP = true,
@@ -34,7 +36,6 @@ getgenv().bgsInfConfig = {
     PURCHASE_STARSHOP_SLOT = 16,
     RESTOCK_SHOP = "Event Merchant",
 
-    FOCUS_DICE = true,
     USE_ROYAL_KEY = true,
     USE_GOLDEN_KEY = true,
     USE_DICE_KEY = true,
@@ -58,8 +59,7 @@ getgenv().bgsInfConfig = {
     MASTERY_PETS_LEVEL = 15,   
     MASTERY_BUFFS_LEVEL = 15,  
     MASTERY_SHOPS_LEVEL = 10,  
-    MASTERY_MINIGAMES_LEVEL = 1,
-    MIN_TICKETS_BEFORE_HATCHING = 1,
+    MASTERY_MINIGAMES_LEVEL = 8,
 
     WEBHOOK_URL = "https://discord.com/api/webhooks/1312400404574896168/48jSW36vS50cezaL3dBygAZd_NXtwmL8RuDMW2dR6G5bG4PcJIhM351ac42Dbe4XQiAZ",
     DISCORD_ID = "1165842656958611546",
