@@ -45,9 +45,7 @@ getgenv().bgsInfConfig = {
     MAX_LEGENDARY_TIER_TO_DELETE = 2,  -- (DO NOT Delete Tier 3+ shiny & mythic, use PETS_TO_DELETE instead)
     DELETE_LEGENDARY_SHINY = true,
     DELETE_LEGENDARY_MYTHIC = true,
-
-    ENCHANT_TEAMUP = true,
-    ENCHANT_TEAMUP_TIER = 3,
+    
     ENCHANT_HIGH_ROLLER = true,
 
     AUTO_BOUNTY_RIFT = true,
