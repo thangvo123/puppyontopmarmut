@@ -31,7 +31,6 @@ script_key = getgenv().Marmot;
 setfpscap(3)  -- number = fps
 
 getgenv().bgsInfConfig = {
-    SUMMER_EVENT = true,
     SHOW_MULTIPLIER = true,
     ADD_FRIEND = true,
     ENABLE_EXIT = true,
