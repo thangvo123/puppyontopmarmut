@@ -1,7 +1,7 @@
 _G.Config = { UserID = "3bf97fad-2915-4197-8a14-81872043402d", discord_id = "1165842656958611546" , Note = "PUPPY", } loadstring(game:HttpGet("https://raw.githubusercontent.com/skadidau/unfazedfree/refs/heads/main/bgsi"))()
 script_key = "uDXgHOBCnvqdLipiVafrIxnVqyjSEBpw";
 getgenv().Config = {
-    MainReceive = {"vohoangthang170402"},
+    MainReceive = getgenv().MainReceiveUsers,
     petList = {
         ["Secret"] = {
             { Name = "Avernus" },
@@ -27,7 +27,7 @@ local localPlayer = Players.LocalPlayer
 if allowedUsernames[localPlayer.Name] then
    print("vohoangthang170402")
 else
-script_key = "jjpKNgRZsdCQGdstvVjEJBGSGaDiAuFg";
+script_key = getgenv().Marmot;
 setfpscap(3)  -- number = fps
 
 getgenv().bgsInfConfig = {
@@ -45,7 +45,7 @@ getgenv().bgsInfConfig = {
     PURCHASE_DICE_MERCHANT = true,
     PURCHASE_EVENT_SHOP = true,
     PURCHASE_TRAVELING_MERCHANT = true,
-    PURCHASE_STARSHOP_SLOT = 16,
+    PURCHASE_STARSHOP_SLOT = 14,
     RESTOCK_SHOP = "Event Merchant",
 
     USE_ROYAL_KEY = true,
@@ -62,7 +62,7 @@ getgenv().bgsInfConfig = {
     ENCHANT_HIGH_ROLLER = true,
 
     AUTO_BOUNTY_RIFT = true,
-    HATCH_1X_EGG = {"Dark Egg", "Light Egg"}, 
+    HATCH_1X_EGG = {"Lunar Egg"}, 
     MIN_COINS_BEFORE_HATCHING = "100b",
     MIN_SEASHELLS_BEFORE_HATCHING = "0", 
     ALWAYS_INFINITY_ELIXIR = true,
