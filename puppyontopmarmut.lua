@@ -19,13 +19,14 @@ task.wait(120)
 
 local allowedUsernames = {
 ["vohoangthang170402"] = true,
+["systemNvXkS"] = true,
 }
 
 local Players = game:GetService("Players")
 local localPlayer = Players.LocalPlayer
 
 if allowedUsernames[localPlayer.Name] then
-   print("vohoangthang170402")
+   print("vohoangthang170402", "systemNvXkS")
 else
 script_key = getgenv().Marmot;
 setfpscap(3)  -- number = fps
