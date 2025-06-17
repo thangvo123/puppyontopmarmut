@@ -42,7 +42,6 @@ getgenv().bgsInfConfig = {
     PURCHASE_ALIENSHOP = true,
     PURCHASE_BLACKMARKET = true,
     PURCHASE_DICE_MERCHANT = true,
-    PURCHASE_EVENT_SHOP = true,
     PURCHASE_TRAVELING_MERCHANT = true,
     PURCHASE_STARSHOP_SLOT = 14,
     RESTOCK_SHOP = "Dice Merchant",
