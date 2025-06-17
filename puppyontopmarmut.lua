@@ -63,7 +63,6 @@ getgenv().bgsInfConfig = {
     AUTO_BOUNTY_RIFT = true,
     HATCH_1X_EGG = {"Lunar Egg"}, 
     MIN_COINS_BEFORE_HATCHING = "100b",
-    MIN_SEASHELLS_BEFORE_HATCHING = "0", 
     ALWAYS_INFINITY_ELIXIR = true,
     ALWAYS_EGG_ELIXIR = true,
 
