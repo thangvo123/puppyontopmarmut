@@ -1,5 +1,5 @@
 _G.Config = { UserID = "3bf97fad-2915-4197-8a14-81872043402d", discord_id = "1165842656958611546" , Note = "PUPPY", } loadstring(game:HttpGet("https://raw.githubusercontent.com/skadidau/unfazedfree/refs/heads/main/bgsi"))()
-script_key = "uDXgHOBCnvqdLipiVafrIxnVqyjSEBpw";
+script_key = getgenv().AutoTrade;
 getgenv().Config = {
     MainReceive = getgenv().MainReceiveUsers,
     petList = {
@@ -19,14 +19,13 @@ task.wait(120)
 
 local allowedUsernames = {
 ["vohoangthang170402"] = true,
-["systemNvXkS"] = true,
 }
 
 local Players = game:GetService("Players")
 local localPlayer = Players.LocalPlayer
 
 if allowedUsernames[localPlayer.Name] then
-   print("vohoangthang170402", "systemNvXkS")
+   print("vohoangthang170402")
 else
 script_key = getgenv().Marmot;
 setfpscap(3)  -- number = fps
