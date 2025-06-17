@@ -61,7 +61,7 @@ getgenv().bgsInfConfig = {
     ENCHANT_HIGH_ROLLER = true,
 
     AUTO_BOUNTY_RIFT = true,
-    HATCH_1X_EGG = {"Lunar Egg"}, 
+    HATCH_1X_EGG = {"Voidcrystal Egg"}, 
     MIN_COINS_BEFORE_HATCHING = "100b",
     ALWAYS_INFINITY_ELIXIR = true,
     ALWAYS_EGG_ELIXIR = true,
