@@ -47,7 +47,6 @@ getgenv().bgsInfConfig = {
     RESTOCK_SHOP = "Dice Merchant",
 
     USE_ROYAL_KEY = true,
-    USE_GOLDEN_KEY = true,
     USE_DICE_KEY = true,
     USE_MYSTERY_BOX = true,
 
