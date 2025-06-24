@@ -1,68 +1,151 @@
-_G.Config = { UserID = "3bf97fad-2915-4197-8a14-81872043402d", discord_id = "1165842656958611546" , Note = "PUPPY", } loadstring(game:HttpGet("https://raw.githubusercontent.com/skadidau/unfazedfree/refs/heads/main/bgsi"))()
-script_key = getgenv().AutoTrade;
 getgenv().Config = {
-    MainReceive = getgenv().MainReceiveUsers,
-    petList = {
-        ["Secret"] = {
+    ["Time To Sell"] = 35, -- Seconds
+    ["Craft Event"] = {
+        ["Crafters Seed Pack"] = true,
+        ["Anti Bee Egg"] = true
+    },
+    ["Dont Open Pack"] = false,
+    ["Dont Use Flower Seed Pack"] = false, -- If u Enable Crafters Seed Pack pls enable this
+    ["Seed"] = {
+        ["Strawberry"] = 44,
+        ["Blueberry"] = 44,
+        ["Tomato"] = 44,
+        ["Loquat"] = 44,
+        ["Pineapple"] = 44,
+        ["Carrot"] = 44,
+        ["Bell Pepper"] = 44,
+        ["Green Apple"] = 44,
+        ["Feijoa"] = 44,
+        ["Avocado"] = 44,
+        ["Sugar Apple"] = 44,
+        ["Banana"] = 44,
+        ["Prickly Pear"] = 44,
+        ["Watermelon"] = 44,
+        ["Kiwi"] = 44
+    },
 
+    ["FPS"] = 3,
+    ["Egg"] = {
+        ["Common Egg"] = {
+            ["Buy"] = false,
+            ["Place"] = false,
+            ["Priority"] = 8
         },
-        ["normalPets"] = {
+        ["Uncommon Egg"] = {
+            ["Buy"] = false,
+            ["Place"] = false,
+            ["Priority"] = 7
+        },
+        ["Rare Egg"] = {
+            ["Buy"] = false,
+            ["Place"] = false,
+            ["Priority"] = 6
+        },
 
+        ["Mythical Egg"] = {
+            ["Buy"] = true,
+            ["Place"] = true,
+            ["Priority"] = 5
+        },
+        ["Anti Bee Egg"] = {
+            ["Place"] = true,
+            ["Priority"] = 1
+        },
+        ["Night Egg"] = {
+            ["Place"] = true,
+            ["Priority"] = 4
+        },
+        ["Bug Egg"] = {
+            ["Buy"] = true,
+            ["Place"] = true,
+            ["Priority"] = 2
+        },
+        ["Paradise Egg"] = {
+            ["Buy"] = true,
+            ["Place"] = true,
+            ["Priority"] = 3
         }
+    },
+    ["Honey Item"] = {
+        ["Nectarine"] = false,
+        ["Flower Seed Pack"] = true,
+        ["Honey Sprinkler"] = false,
+        ["Bee Egg"] = true,
+        ["Pollen Radar"] = false,
+        ["Nectar Staff"] = false,
+        ["Nectarshade"] = false,
+        ["Lavender"] = false,
+        ["Hive Fruit"] = false
+    },
+    ["Sprinkler"] = {
+        ["Place Sprinkler"] = true,
+        ["Buy Sprinkler"] = true,
+        ["Basic Sprinkler"] = true,
+        ["Advanced Sprinkler"] = true,
+        ["Master Sprinkler"] = true,
+        ["Godly Sprinkler"] = true
+    },
+    ["Plant Candy"] = false,
+    ["PetNeedSend"] = {"Queen Bee", "Red Fox", "Dragonfly", "Disco Bee", "Butterfly", "Mimic Octopus"},
+    ["Destroy Mode"] = {
+        ["Auto Destroy when have money"] = 1000000, -- its will destroy all trees select when money >= select
+        ["Trees"] = {"Strawberry", "Blueberry", "Corn", "Tomato", "Orange Tulip", "Carrot"}
+    },
+    ["Url"] = "", -- Webhook 
+
+    ["Boost FPS"] = true,
+    ["Black Screen"] = true,
+    ["Note"] = "Cyndral Hub",
+    ["Pet Mode"] = {
+        ["Sell Pet"] = true,
+        ["Equip Pet"] = true,
+        ["Name Pet Equip"] = {
+            ["Night Owl"] = true,
+            ["Chicken"] = true
+        },
+        ["Rarity"] = { -- Rarity Sell Pet
+            ["Common"] = true,
+            ["Uncommon"] = true,
+            ["Rare"] = true,
+            ["Legendary"] = false,
+            ["Divine"] = false,
+            ["Mythical"] = false
+        },
+        ["Upgrade Slot Egg"] = {
+            ["Enable"] = true,
+            ["Black List Pet For Upgrade Slots"] = {"Queen Bee", "Red Fox", "Dragonfly", "Raccoon", "Disco Bee",
+                                                    "Butterfly", "Mimic Octopus"}
+        },
+        ["Pet Dont Delete"] = {"Queen Bee", "Red Fox", "Dragonfly", "Raccoon", "Disco Bee", "Butterfly", "Mimic Octopus"}
+    },
+    ["Webhook Mode"] = {
+        ["Enable Send Pet Weight"] = false,
+        ["Weight"] = 10 -- if Weight >= 10 they will send wh
+    },
+    ["Rejoin Mode"] = {
+        ["Auto rejoin on script update"] = true,
+        ["Enable Rejoin After X Time"] = false,
+        ["Rejoin After X Time"] = 60 -- Minutes
+    },
+
+    ["Mutation Skips"] = { -- Skip Havest
+        ["Pollinated"] = false,
+        ["Disco"] = false,
+        ["Twisted"] = false,
+        ["Wet"] = false,
+        ["Choc"] = false,
+        ["Bloodlit"] = false,
+        ["Celestial"] = false,
+        ["Moonlit"] = false,
+        ["Chilled"] = false,
+        ["Zombified"] = false,
+        ["Plasma"] = false,
+        ["Burnt"] = false,
+        ["Frozen"] = false,
+        ["Voidtouched"] = false,
+        ["HoneyGlazed"] = false,
+        ["Shocked"] = false
     }
 }
-
-task.spawn(function()
-loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/793674f6bc0a80e1c748fd75994d1607.lua"))()
-end)
-task.wait(120)
-script_key = getgenv().Marmot;
-setfpscap(3)  -- number = fps
-
-getgenv().bgsInfConfig = {
-    SHOW_MULTIPLIER = true,
-    ADD_FRIEND = true,
-    ENABLE_EXIT = true,
-    IGNORE_SEASON_CHALLENGES = true,
-    SUPER_TICKET_MINIGAME = "Robot Claw",
-    STOP_MINIGAME_INFINITY_ELIXIR = 10,
-    AUTO_UPDATE_RESTART = false,
-
-    PURCHASE_ALIENSHOP = true,
-    PURCHASE_BLACKMARKET = true,
-    PURCHASE_DICE_MERCHANT = true,
-    PURCHASE_TRAVELING_MERCHANT = true,
-    PURCHASE_STARSHOP_SLOT = 14,
-    RESTOCK_SHOP = "Dice Merchant",
-
-    USE_ROYAL_KEY = true,
-    USE_DICE_KEY = true,
-    USE_MYSTERY_BOX = true,
-
-    RARITY_TO_DELETE = {"Common", "Unique", "Rare", "Epic", "Legendary"},
-    RARITY_TO_SHINY = {"Common", "Unique", "Rare", "Epic", "Legendary"},
-    MAX_LEGENDARY_TIER_TO_DELETE = 2,  -- (DO NOT Delete Tier 3+ shiny & mythic, use PETS_TO_DELETE instead)
-    DELETE_LEGENDARY_SHINY = true,
-    DELETE_LEGENDARY_MYTHIC = true,
-
-    ENCHANT_HIGH_ROLLER = true,
-
-    AUTO_BOUNTY_RIFT = true,
-    HATCH_1X_EGG = {"Voidcrystal Egg"}, 
-    MIN_COINS_BEFORE_HATCHING = "100b",
-    ALWAYS_INFINITY_ELIXIR = true,
-    ALWAYS_EGG_ELIXIR = true,
-
-    MASTERY_PETS_LEVEL = 15,   
-    MASTERY_BUFFS_LEVEL = 15,  
-    MASTERY_SHOPS_LEVEL = 10,  
-    MASTERY_MINIGAMES_LEVEL = 8,
-
-    WEBHOOK_URL = "https://discord.com/api/webhooks/1312400404574896168/48jSW36vS50cezaL3dBygAZd_NXtwmL8RuDMW2dR6G5bG4PcJIhM351ac42Dbe4XQiAZ",
-    DISCORD_ID = "1165842656958611546",
-    WEBHOOK_NOTE = "PUPPY",
-    WEBHOOK_ODDS = "1000b",
-    SHOW_PET_WEBHOOK_USERNAME = true,
-}
-
-loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/3dc52e6a2fc4f671b66757e93f4fd38b.lua"))()
+setfpscap(getgenv().Config["FPS"])
+loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/4bbb062dd01f4eb1fa71fca9e6ccbb7b.lua"))()
