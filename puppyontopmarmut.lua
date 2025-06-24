@@ -43,8 +43,8 @@ getgenv().Config = {
         },
 
         ["Mythical Egg"] = {
-            ["Buy"] = false,
-            ["Place"] = false,
+            ["Buy"] = true,
+            ["Place"] = true,
             ["Priority"] = 5
         },
         ["Anti Bee Egg"] = {
@@ -100,8 +100,9 @@ getgenv().Config = {
         ["Sell Pet"] = true,
         ["Equip Pet"] = true,
         ["Name Pet Equip"] = {
-            ["Night Owl"] = true,
-            ["Chicken"] = true
+            ["Capybara"] = true,
+            ["Red Fox"] = true,
+            ["Blood Kiwi"] = true
         },
         ["Rarity"] = { -- Rarity Sell Pet
             ["Common"] = true,
