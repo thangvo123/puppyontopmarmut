@@ -7,6 +7,7 @@ getgenv().Config = {
     ["Dont Open Pack"] = false,
     ["Dont Use Flower Seed Pack"] = false, -- If u Enable Crafters Seed Pack pls enable this
     ["Seed"] = {
+        ["Carrot"] = 44,
         ["Strawberry"] = 44,
         ["Blueberry"] = 44,
         ["Tomato"] = 44,
