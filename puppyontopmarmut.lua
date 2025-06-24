@@ -7,7 +7,6 @@ getgenv().Config = {
     ["Dont Open Pack"] = false,
     ["Dont Use Flower Seed Pack"] = false, -- If u Enable Crafters Seed Pack pls enable this
     ["Seed"] = {
-        ["Carrot"] = 44,
         ["Strawberry"] = 44,
         ["Blueberry"] = 44,
         ["Tomato"] = 44,
@@ -27,22 +26,6 @@ getgenv().Config = {
 
     ["FPS"] = 3,
     ["Egg"] = {
-        ["Common Egg"] = {
-            ["Buy"] = false,
-            ["Place"] = false,
-            ["Priority"] = 8
-        },
-        ["Uncommon Egg"] = {
-            ["Buy"] = false,
-            ["Place"] = false,
-            ["Priority"] = 7
-        },
-        ["Rare Egg"] = {
-            ["Buy"] = false,
-            ["Place"] = false,
-            ["Priority"] = 6
-        },
-
         ["Mythical Egg"] = {
             ["Buy"] = true,
             ["Place"] = true,
