@@ -1,3 +1,6 @@
+repeat wait() until game:IsLoaded()
+wait(10)
+script_key="YlGCRMoTCfGllSwUWylNlcephTdYBdWR";
 getgenv().Config = {
     ["Time To Sell"] = 35, -- Seconds
     ["Craft Event"] = {
@@ -85,7 +88,7 @@ getgenv().Config = {
         ["Equip Pet"] = true,
         ["Name Pet Equip"] = {
             ["Capybara"] = true,
-            ["Red Fox"] = true,
+            ["Ostrich"] = true,
             ["Blood Kiwi"] = true
         },
         ["Rarity"] = { -- Rarity Sell Pet
@@ -133,4 +136,8 @@ getgenv().Config = {
     }
 }
 setfpscap(getgenv().Config["FPS"])
-loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/4bbb062dd01f4eb1fa71fca9e6ccbb7b.lua"))()
+repeat
+    wait()
+    loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/be5eb6eb83a60b4c87954ddf66dd7413.lua"))()
+    task.wait(10)
+until getgenv().Loaded
