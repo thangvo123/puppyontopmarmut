@@ -26,7 +26,6 @@ getgenv().Config = {
         ["Watermelon"] = 44,
         ["Kiwi"] = 44
     },
-
     ["FPS"] = 3,
     ["Egg"] = {
         ["Mythical Egg"] = {
@@ -79,7 +78,6 @@ getgenv().Config = {
         ["Trees"] = {"Strawberry", "Blueberry", "Corn", "Tomato", "Orange Tulip", "Carrot"}
     },
     ["Url"] = "", -- Webhook 
-
     ["Boost FPS"] = true,
     ["Black Screen"] = true,
     ["Note"] = "Cyndral Hub",
@@ -90,14 +88,6 @@ getgenv().Config = {
             ["Capybara"] = true,
             ["Ostrich"] = true,
             ["Blood Kiwi"] = true
-        },
-        ["Rarity"] = { -- Rarity Sell Pet
-            ["Common"] = true,
-            ["Uncommon"] = true,
-            ["Rare"] = true,
-            ["Legendary"] = false,
-            ["Divine"] = false,
-            ["Mythical"] = false
         },
         ["Upgrade Slot Egg"] = {
             ["Enable"] = true,
@@ -115,7 +105,6 @@ getgenv().Config = {
         ["Enable Rejoin After X Time"] = false,
         ["Rejoin After X Time"] = 60 -- Minutes
     },
-
     ["Mutation Skips"] = { -- Skip Havest
         ["Pollinated"] = false,
         ["Disco"] = false,
