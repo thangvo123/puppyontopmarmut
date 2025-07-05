@@ -84,10 +84,19 @@ getgenv().Config = {
                        "Meerkat", "Sand Snake", "Fennec Fox", "Axolotl", "Hyacinth Macaw", "Hamster"},
     ["Destroy Mode"] = {
         ["Auto Destroy when have money"] = 1000000, -- its will destroy all trees select when money >= select
-        ["Trees"] = {"Strawberry", "Blueberry", "Corn", "Orange Tulip", "Avocado", "Banana", "Green Apple", "Pineapple", "Kiwi", "Carrot", "Tomato", "Wild Carrot", "Cantaloupe", "Pear", "Watermelon", "Coconut"}
+        ["Mode Destroy"] = "Auto", -- "Custom"
+        ["Trees"] = {"Strawberry", "Blueberry", "Corn", "Orange Tulip", "Carrot"},
+        ["Rarity Destroy Auto"] = {"Common", "Uncommon", "Rare", "Legendary"},
+        ["Destroy Untill"] = 450
     },
     ["Url"] = "", -- Webhook 
+    ["4th July Event"] = {
+        ["Firework Flower"] = false,
+        ["Firework"] = false,
+        ["Bald Eagle"] = true,
+        ["Liberty Lily"] = false
 
+    },
     ["Boost FPS"] = true,
     ["Black Screen"] = true,
     ["Note"] = "Cyndral Hub",
@@ -108,7 +117,8 @@ getgenv().Config = {
         },
         ["Pet Dont Delete"] = {"Queen Bee", "Red Fox", "Dragonfly", "Raccoon", "Disco Bee", "Butterfly",
                                "Mimic Octopus", "Meerkat", "Sand Snake", "Fennec Fox", "Axolotl", "Hyacinth Macaw",
-                               "Hamster"}
+                               "Hamster", "Golden Lab"},
+        ["Dont Sell Pet If Weight > x"] = 10 -- Script dont sell pet if this weight >= 10
     },
     ["Webhook Mode"] = {
         ["Enable Send Pet Weight"] = false,
