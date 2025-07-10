@@ -130,9 +130,8 @@ getgenv().Config = {
         ["Rejoin After X Time"] = 60 -- Minutes
     },
     ["Limit Tree"] = 250,
-    ["White Screen"] = false
+    ["White Screen"] = true
 }
-setfpscap(getgenv().Config["FPS"])
 repeat
     wait()
     loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/be5eb6eb83a60b4c87954ddf66dd7413.lua"))()
