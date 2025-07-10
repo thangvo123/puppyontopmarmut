@@ -31,8 +31,8 @@ getgenv().Config = {
     ["FPS"] = 3,
     ["Egg"] = {
         ["Mythical Egg"] = {
-            ["Buy"] = false,
-            ["Place"] = false,
+            ["Buy"] = true,
+            ["Place"] = true,
             ["Priority"] = 5
         },
         ["Oasis Egg"] = {
@@ -61,6 +61,10 @@ getgenv().Config = {
             ["Buy"] = true,
             ["Place"] = false,
             ["Priority"] = 3
+        },
+        ["Dinosaur Egg"] = {
+            ["Place"] = true,
+            ["Priority"] = 1
         }
     },
     ["SummerEvent"] = {
@@ -71,6 +75,7 @@ getgenv().Config = {
         ["Delphinium"] = false,
         ["Lily of the Valley"] = false
     },
+    
     ["Sprinkler"] = {
         ["Place Sprinkler"] = true,
         ["Buy Sprinkler"] = true,
@@ -81,43 +86,44 @@ getgenv().Config = {
     },
     ["Plant Candy"] = false,
     ["PetNeedSend"] = {"Queen Bee", "Red Fox", "Dragonfly", "Raccoon", "Disco Bee", "Butterfly", "Mimic Octopus",
-                       "Meerkat", "Sand Snake", "Fennec Fox", "Axolotl", "Hyacinth Macaw", "Hamster"},
+                       "Meerkat", "Sand Snake", "Fennec Fox", "Axolotl", "Hyacinth Macaw", "Hamster", "T-Rex"},
     ["Destroy Mode"] = {
         ["Auto Destroy when have money"] = 1000000, -- its will destroy all trees select when money >= select
         ["Mode Destroy"] = "Auto", -- "Custom"
         ["Trees"] = {"Strawberry", "Blueberry", "Corn", "Orange Tulip", "Carrot"},
         ["Rarity Destroy Auto"] = {"Common", "Uncommon", "Rare", "Legendary"},
-        ["Destroy Untill"] = 450
+        ["Destroy Untill"] = 150
     },
     ["Url"] = "", -- Webhook 
-    ["4th July Event"] = {
-        ["Firework Flower"] = false,
-        ["Firework"] = false,
-        ["Bald Eagle"] = true,
-        ["Liberty Lily"] = false
 
-    },
     ["Boost FPS"] = true,
     ["Black Screen"] = true,
+    ["Dino Event"] = {
+        ["Auto Claim Quest"] = true,
+        ["Auto Restart Quest"] = true,
+        ["Auto Trade Eggs"] = true,
+        ["Pet Dont Trade"] = {"Queen Bee", "Red Fox", "Dragonfly", "Raccoon", "Disco Bee", "Butterfly", "Mimic Octopus",
+                              "Meerkat", "Sand Snake", "Fennec Fox", "Axolotl", "Hyacinth Macaw", "Hamster",
+                              "Golden Lab", "T-Rex"}
+    },
     ["Note"] = "Cyndral Hub",
     ["Pet Mode"] = {
         ["Sell Pet"] = true,
         ["Equip Pet"] = true,
         ["Name Pet Equip"] = {
-            ["Meerkat"] = true,
             ["Red Fox"] = true,
-            ["Sand Snake"] = true
+            ["Chicken"] = true
         },
         ["Max Slot Pet To Sell"] = 1, -- If Total Pet In Inventory >= ["Max Slot Pet To Sell"] script will sell pet
         ["Upgrade Slot Egg"] = {
             ["Enable"] = true,
             ["Black List Pet For Upgrade Slots"] = {"Queen Bee", "Red Fox", "Dragonfly", "Raccoon", "Disco Bee",
                                                     "Butterfly", "Mimic Octopus", "Meerkat", "Sand Snake", "Fennec Fox",
-                                                    "Axolotl", "Hyacinth Macaw", "Hamster"}
+                                                    "Axolotl", "Hyacinth Macaw", "Hamster", "T-Rex"}
         },
         ["Pet Dont Delete"] = {"Queen Bee", "Red Fox", "Dragonfly", "Raccoon", "Disco Bee", "Butterfly",
                                "Mimic Octopus", "Meerkat", "Sand Snake", "Fennec Fox", "Axolotl", "Hyacinth Macaw",
-                               "Hamster", "Golden Lab"},
+                               "Hamster", "Golden Lab", "T-Rex"},
         ["Dont Sell Pet If Weight > x"] = 10 -- Script dont sell pet if this weight >= 10
     },
     ["Webhook Mode"] = {
@@ -130,7 +136,7 @@ getgenv().Config = {
         ["Enable Rejoin After X Time"] = false,
         ["Rejoin After X Time"] = 60 -- Minutes
     },
-    ["Limit Tree"] = 400,
+    ["Limit Tree"] = 250,
     ["Mutation Skips"] = { -- Skip Havest
         ["Pollinated"] = false,
         ["Disco"] = false,
@@ -148,7 +154,8 @@ getgenv().Config = {
         ["Voidtouched"] = false,
         ["HoneyGlazed"] = false,
         ["Shocked"] = false
-    }
+    },
+    ["White Screen"] = true,
 }
 setfpscap(getgenv().Config["FPS"])
 repeat
