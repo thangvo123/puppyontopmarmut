@@ -1,4 +1,4 @@
-script_key="akqEXHvgNXvFhaONlDAYtAzdNCutRYRo";
+script_key="aGUDxXwbJxqTIxqeCKDmRWXjwtgSUlaw";
 setfpscap(2)
 
 getgenv().gagConfig = {
